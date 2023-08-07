@@ -1,0 +1,363 @@
+:root {
+  --font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  height: 100svh;
+  width: 100svw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.intruder h5  {
+  color: white;
+  text-align: center;
+  font-size: 1.35em;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.intruder div .btn  {
+  color: white;
+  font-size: 1em;
+  font-weight: 900;
+  text-align: center;
+  background-color: #a5763e;
+}
+
+form {
+  color: white;
+  font-size: 0.75em;
+}
+
+.container {
+  height: 70svh;
+  width: 70svw;
+  background-color: 201c42;
+  align-self: center;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-side2 {
+  background-image: url("img/INTRANET-01.png");
+  background-size:cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+  height: 100svh;
+  width: 100svw;
+  border-radius:5px 0px 0px 5px;
+  flex: 0 0 70%;
+ }
+ 
+ .right-side2 {
+  background-image: radial-gradient(at 0% 30%, #d8d8d854, #3838385e), url("img/leather.jpg");
+  height: 100svh;
+  width: 100svw;
+  border-radius:0px 5px 5px 0px;
+  box-shadow: -10px 0px 40px rgba(0, 0, 0, 0.336);
+  flex:0 0 30%;
+ }
+
+ .intruder {
+  height: 70svh;
+  width: 50svh;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-80%, -50%);
+  background-image: radial-gradient(at 0% 30%, #154563, #091b25); /* , url("img/leather.jpg") */
+  z-index: 100;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+ }
+
+ .logos {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+ }
+
+ .log-trio {
+  max-width: 270px;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+ }
+
+ .textos-bottom {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, -150%);
+ }
+
+ .textos-bottom small {
+  font-size: 0.8em;
+ }
+
+ /* ESTOS ESTILOS SOLO APLICAN AL INDEX1.HTML */
+
+ .left-side {
+  height: 67svh; 
+  border-radius:5px 0px 0px 5px;
+ }
+ 
+ .right-side {
+  height: 67svh;
+  border-radius:0px 5px 5px 0px;
+ }
+
+ @media (max-width: 376px) {
+
+
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logos {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+   }
+
+  .log-trio {
+    max-width: 230px;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+   }
+   .left-side2 {
+    background-image: url("img/RESTOS-SM-06.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius:5px 0px 0px 5px;
+    flex: 0 0 40%;
+   }
+   
+   .right-side2 {
+    border-radius:0px 5px 5px 0px;
+    box-shadow: -10px 0px 40px rgba(0, 0, 0, 0.336);
+    flex: 0 0 60%;
+   }
+
+   .intruder {
+    height: 75svh;
+    width: 40svh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+   }
+
+    /* HASTA AQUI LAS CLASES ANIADIDAS PARA SM DEVICES */
+
+
+  .textos-bottom {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   }
+
+   .textos-bottom small {
+    font-size: 0.69em;
+   }
+
+   .intruder h5  {
+    color: white;
+    text-align: center;
+    font-size: 1.05em;
+    font-weight: 500;
+    line-height: 1.1;
+  }
+ }
+
+ @media (min-width: 383px) and (max-width: 480px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .textos-bottom {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+   }
+  
+   .textos-bottom small {
+    font-size: 0.65em;
+   }
+  
+
+  .logos {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+   }
+
+  .log-trio {
+    max-width: 230px;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+   }
+
+
+  .intruder h5  {
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 1.1;
+  }
+
+  .left-side2 {
+    background-image: url("img/RESTOS-SM-06.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius:5px 0px 0px 5px;
+    flex: 0 0 40%;
+   }
+   
+   .right-side2 {
+    border-radius:0px 5px 5px 0px;
+    box-shadow: -10px 0px 40px rgba(0, 0, 0, 0.336);
+    flex: 0 0 60%;
+   }
+
+   .intruder {
+    height: 75svh;
+    width: 40svh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+   }
+ }
+
+
+ @media (min-width: 481px) and (max-width: 768px) {
+
+ }
+
+ @media (min-width: 1023px) and (max-width: 1199px) {
+
+  body {
+    height: 100svh;
+    width: 100svw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .intruder h5  {
+    color: white;
+    text-align: center;
+    font-size: 1.35em;
+    font-weight:300;
+    line-height: 1.1;
+  }
+  
+  .intruder div .btn  {
+    color: white;
+    font-size: 1em;
+    font-weight: 900;
+    text-align: center;
+    background-color: #a5763e;
+  }
+  
+  form {
+    color: white;
+    font-size: 0.75em;
+  }
+  
+  .container {
+    height: 70svh;
+    width: 70svw;
+    background-color: 201c42;
+    align-self: center;
+    border-radius: 10px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left-side2 {
+    background-image: url("img/INTRANET-01.png");
+    background-size:cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: 100svh;
+    width: 100svw;
+    border-radius:5px 0px 0px 5px;
+    flex: 0 0 70%;
+   }
+   
+   .right-side2 {
+    background-color: #d8d8d8;
+    height: 100svh;
+    width: 100svw;
+    border-radius:0px 5px 5px 0px;
+    box-shadow: -10px 0px 40px rgba(0, 0, 0, 0.336);
+    flex:0 0 30%;
+   }
+  
+   .intruder {
+    height: 85svh;
+    width: 60svh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-80%, -50%);
+    z-index: 100;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+   }
+
+   .textos-bottom {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+   }
+
+   .textos-bottom small {
+    font-size: 0.69em;
+   }
+
+
+ }
