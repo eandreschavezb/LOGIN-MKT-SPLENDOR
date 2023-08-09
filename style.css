@@ -45,7 +45,7 @@ form {
 }
 
 .left-side2 {
-  background-image: url("img/INTRANET-01.png");
+  background-image: url("img/297095123_5293358030742651_5627364099322196086_n.jpg");
   background-size:cover;
   background-position: right center;
   background-repeat: no-repeat;
@@ -56,7 +56,10 @@ form {
  }
  
  .right-side2 {
-  background-image: radial-gradient(at 0% 30%, #d8d8d854, #3838385e), url("img/leather.jpg");
+  background-image: radial-gradient(at 0% 30%, #ffffff21, #ffffff21), url("img/WAVES6-05.jpg");
+  background-size:cover;
+  background-position: right center;
+  background-repeat: no-repeat;
   height: 100svh;
   width: 100svw;
   border-radius:0px 5px 5px 0px;
@@ -76,14 +79,14 @@ form {
   top: 50%;
   left: 80%;
   transform: translate(-80%, -50%);
-  background-image: radial-gradient(at 0% 30%, #154563, #091b25); /* , url("img/leather.jpg") */
+  background-image: radial-gradient(at 0% 30%, #15113a, #2b2377); /* , url("img/leather.jpg") */
   z-index: 100;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
  }
 
  .logos {
   position: absolute;
-  top: 15%;
+  top: 20%;
   left: 50%;
  }
 
@@ -213,7 +216,7 @@ form {
 
   .logos {
     position: absolute;
-    top: 12%;
+    top: 18%;
     left: 50%;
    }
 
@@ -237,6 +240,7 @@ form {
     background-image: url("img/RESTOS-SM-06.png");
     background-size:cover;
     background-position: center;
+    /* NO ES ESTE PORQUE CREO QUE LA IMAGEN LLENA CON LAS JUSTAS */
     background-repeat: no-repeat;
     border-radius:5px 0px 0px 5px;
     flex: 0 0 40%;
@@ -264,8 +268,26 @@ form {
  }
 
 
- @media (min-width: 481px) and (max-width: 768px) {
-
+ @media (min-width: 481px) and (max-width: 1022px) {
+  .left-side2 {
+    background-image: url("img/297095123_5293358030742651_5627364099322196086_n.jpg");
+    background-size:cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 100svh;
+    width: 100svw;
+    border-radius:5px 0px 0px 5px;
+    flex: 0 0 50%;
+   }
+   
+   .right-side2 {
+    background-image: radial-gradient(at 0% 30%, #ffffff54, #ffffff5e), url("img/leather.jpg");
+    height: 100svh;
+    width: 100svw;
+    border-radius:0px 5px 5px 0px;
+    box-shadow: -10px 0px 40px rgba(0, 0, 0, 0.336);
+    flex:0 0 50%;
+   }
  }
 
  @media (min-width: 1023px) and (max-width: 1199px) {
@@ -316,6 +338,7 @@ form {
     background-image: url("img/INTRANET-01.png");
     background-size:cover;
     background-position: right center;
+    /* este tampoco */
     background-repeat: no-repeat;
     height: 100svh;
     width: 100svw;
