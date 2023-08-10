@@ -21,29 +21,20 @@ body {
   border-bottom: 1px solid #fcfcfc;
 }
 
-
-
-
-.intruder h5  {/* 
-  color: white; */
+.intruder h5  {
+  color: white;
   text-align: center;
   font-size: 1.35em;
   font-weight: 500;
   line-height: 1.1;
 }
 
-.intruder div .btn  {/* 
-  color: white; */
+.intruder div .btn  {
+  color: white;
   font-size: 1em;
   font-weight: 900;
   text-align: center;
   background-color: #a5763e;
-}
-
-form {/* 
-  color: white */;
-  font-size: 0.9em;
-  isolation: isolate;
 }
 
 .container {
@@ -67,22 +58,15 @@ form {/*
   border-radius:5px 0px 0px 5px;
   flex: 0 0 70%;
  }
-
-/*  .textos-bottom small a .text-white {
-  color: aqua;
- } */
  
  .right-side2 {
   background-image: radial-gradient(at 0% 30%, #ffffff21, #ffffff21), url("img/MOUNTAINS-02.png");
   background-size:cover;
-  background-position: right center;
+  background-position: bottom 0svh right -150px;
   background-repeat: no-repeat;
-  height: 25svh;
+  height: 28svh;
   width: 100svw;
-  align-self: center;
-  transform: translateY(18svh);
-/*   border-radius:0px 5px 5px 0px;
-  box-shadow: -10px 0px 40px rgba(0, 0, 0, 0.336); */
+  align-self: end;
   flex:0 0 30%;
  }
 
@@ -95,18 +79,15 @@ form {/*
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 45%;
+  top: 50%;
   right: -17.5%;
   transform: translate(-80%, -50%);
-  background-image: url("img/HIGHLANDS_-03.png");
+  background-image: url("img/HIGHLANDS_-02.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
-  mix-blend-mode:multiply;
-   /* background-image: radial-gradient(at 0% 30%,#2a88da, #201c42), url("img/leather.jpg"); */
-  z-index: 100;
+  z-index: 150;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
-  filter: blur(0px);
  }
 
  .logos {
@@ -126,19 +107,23 @@ form {/*
   color: inherit;
  }
 
+ label {
+  color: rgb(214, 214, 214);
+  font-size: 0.75em;
+ }
+
  .textos-bottom {
-  color: aqua;
+  color: white;
   position: absolute;
   bottom: 0%;
   left: 50%;
   transform: translate(-50%, -150%);
+  z-index: 151;
  }
 
  .textos-bottom small {
   font-size: 0.8em;
  }
-
- /* ESTOS ESTILOS SOLO APLICAN AL INDEX1.HTML */
 
  .left-side {
   height: 67svh; 
@@ -182,8 +167,13 @@ form {/*
    }
    
    .right-side2 {
-    border-radius:0px 5px 5px 0px;
-    box-shadow: -10px 0px 40px rgba(0, 0, 0, 0.336);
+    background-image: radial-gradient(at 0% 30%, #ffffff21, #ffffff21), url("img/MOUNTAINS-02.png");
+    background-size:cover;
+    background-position: bottom 0svh right -150px;
+    background-repeat: no-repeat;
+    height: 28svh;
+    width: 100svw;
+    align-self: end;
     flex: 0 0 60%;
    }
 
@@ -200,9 +190,6 @@ form {/*
     transform: translate(-50%, -50%);
     z-index: 100;
    }
-
-    /* HASTA AQUI LAS CLASES ANIADIDAS PARA SM DEVICES */
-
 
   .textos-bottom {
     position: absolute;
@@ -277,8 +264,11 @@ form {/*
    }
    
    .right-side2 {
-    border-radius:0px 5px 5px 0px;
-    box-shadow: -10px 0px 40px rgba(0, 0, 0, 0.336);
+    background-image: radial-gradient(at 0% 30%, #ffffff21, #ffffff21), url("img/MOUNTAINS-02.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
     flex: 0 0 60%;
    }
 
@@ -311,14 +301,19 @@ form {/*
    }
    
    .right-side2 {
-    background-image: radial-gradient(at 0% 30%, #ffffff54, #ffffff5e), url("img/leather.jpg");
-    height: 100svh;
-    width: 100svw;
-    border-radius:0px 5px 5px 0px;
-    box-shadow: -10px 0px 40px rgba(0, 0, 0, 0.336);
-    flex:0 0 50%;
+    background-image: radial-gradient(at 0% 30%, #ffffff21, #ffffff21), url("img/MOUNTAINS-02.png");
+    background-size:cover;
+    background-position: bottom 0svh right -150px;
+    background-repeat: no-repeat;
+    height: 28svh;
+    width: 10svw;
+    align-self: end;
+
+    flex: 0 0 50%;
    }
  }
+
+ /* ESTO NO LO PUEDE VISUALIZAR DESDE VC */
 
  @media (min-width: 1023px) and (max-width: 1199px) {
 
@@ -377,12 +372,15 @@ form {/*
    }
    
    .right-side2 {
-    background-color: #d8d8d8;
-    height: 100svh;
-    width: 100svw;
-    border-radius:0px 5px 5px 0px;
-    box-shadow: -10px 0px 40px rgba(0, 0, 0, 0.336);
-    flex:0 0 30%;
+    background-image: radial-gradient(at 0% 30%, #ffffff21, #ffffff21), url("img/MOUNTAINS-02.png");
+    background-size:cover;
+    /* background-position: bottom 0svh right -150px; */
+    background-repeat: no-repeat;
+    height: 28svh;
+    width: 10svw;
+    align-self: end;
+
+    flex: 0 0 50%;
    }
   
    .intruder {
@@ -395,8 +393,8 @@ form {/*
     align-items: center;
     position: absolute;
     top: 50%;
-    left: 80%;
-    transform: translate(-80%, -50%);
+    left: 80%;/* 
+    transform: translate(-80%, -50%); */
     z-index: 100;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
    }
