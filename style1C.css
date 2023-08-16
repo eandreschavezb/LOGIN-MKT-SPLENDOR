@@ -49,7 +49,7 @@ body {
 }
 
 .left-side2 {
-  background-image: url("img/297095123_5293358030742651_5627364099322196086_n.jpg");
+  background-image: url("img/UPPER-SMPL-TRF.jpeg");
   background-size:cover;
   background-position: right center;
   background-repeat: no-repeat;
@@ -62,9 +62,9 @@ body {
  .right-side2 {
   background-image: radial-gradient(at 0% 30%, #ffffff21, #ffffff21), url("img/MOUNTAINS-02.png");
   background-size:cover;
-  background-position: bottom 0svh right -150px;
+  background-position: bottom 0svh right -670px;
   background-repeat: no-repeat;
-  height: 28svh;
+  height: 20svh;
   width: 100svw;
   align-self: end;
   flex:0 0 30%;
@@ -97,7 +97,7 @@ body {
  }
 
  .log-trio {
-  max-width: 270px;
+  max-width: 250px;
   top: 100%;
   left: 50%;
   transform: translate(-50%, -90%);
@@ -147,12 +147,12 @@ body {
   }
   .logos {
     position: absolute;
-    top: 12%;
+    top: 13%;
     left: 50%;
    }
 
   .log-trio {
-    max-width: 230px;
+    max-width: 180px;
     top: 100%;
     left: 50%;
     transform: translate(-50%, -90%);
@@ -168,12 +168,11 @@ body {
    
    .right-side2 {
     background-image: radial-gradient(at 0% 30%, #ffffff21, #ffffff21), url("img/MOUNTAINS-02.png");
-    background-size:cover;
+    background-size: cover;
     background-position: bottom 0svh right -150px;
     background-repeat: no-repeat;
-    height: 28svh;
+    height: 15svh;
     width: 100svw;
-    align-self: end;
     flex: 0 0 60%;
    }
 
@@ -233,7 +232,7 @@ body {
 
   .logos {
     position: absolute;
-    top: 18%;
+    top: 14%;
     left: 50%;
    }
 
@@ -269,6 +268,7 @@ body {
     background-repeat: no-repeat;
     height: auto;
     width: 100%;
+    aspect-ratio: 1 /1;
     flex: 0 0 60%;
    }
 
@@ -290,9 +290,9 @@ body {
 
  @media (min-width: 481px) and (max-width: 1022px) {
   .left-side2 {
-    background-image: url("img/297095123_5293358030742651_5627364099322196086_n.jpg");
+    background-image: url("img/UPPER-SMPL-TRF.png");
     background-size:cover;
-    background-position: center bottom;
+    background-position: bottom 0svh right -330px;
     background-repeat: no-repeat;
     height: 100svh;
     width: 100svw;
@@ -310,6 +310,26 @@ body {
     align-self: end;
 
     flex: 0 0 50%;
+   }
+
+   .intruder {
+    height: 75svh;
+    width: 40svh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 68%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+   }
+
+   .logos {
+    position: absolute;
+    top: 14%;
+    left: 50%;
    }
  }
 
