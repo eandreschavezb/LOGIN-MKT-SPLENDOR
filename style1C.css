@@ -350,7 +350,7 @@ body {
   .container {
     height: 70svh;
     width: 70svw;
-    background-color: 201c42;
+    background-color: #201c42;
     align-self: center;
     border-radius: 10px;
   
@@ -360,7 +360,7 @@ body {
   }
   
   .left-side2 {
-    background-image: url("img/INTRANET-01.png");
+    background-image: url("img/TENDERO1c.png");
     background-size:cover;
     background-position: right center;
     /* este tampoco */
