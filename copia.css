@@ -10,6 +10,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .intruder h5  {
@@ -36,7 +37,7 @@ form {
 .container {
   height: 70svh;
   width: 70svw;
-  background-color: #201c42;
+  background-color: 201c42;
   align-self: center;
   border-radius: 10px;
   display: flex;
@@ -45,14 +46,62 @@ form {
 }
 
 .left-side2 {
-  height: 95%;
+  background-image: url("img/297095123_5293358030742651_5627364099322196086_n.jpg");
+  background-size:cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+  height: 100svh;
+  width: 100svw;
   border-radius:5px 0px 0px 5px;
   flex: 0 0 70%;
  }
  
  .right-side2 {
-  height: 95%;
+  background-image: radial-gradient(at 0% 30%, #2b2b2b15, #2b2b2b15), url("img/ribbon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 20svh;
+  width: 100svw;
+/*   border-radius:0px 5px 5px 0px;
+  box-shadow: -10px 0px 40px rgba(0, 0, 0, 0.336); */
   flex:0 0 30%;
+  align-self: end;
+  animation: 2s linear infinite circule-chucha;
+ }
+
+ .right-side2b {
+  background-image: url("img/ribbon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 20svh;
+  width: 100svw;/* 
+  border-radius:0px 5px 5px 0px;
+  box-shadow: -10px 0px 40px rgba(0, 0, 0, 0.336); */
+  flex:0 0 30%;
+  align-self: end;
+  animation: 2s linear infinite circule-chucha2;
+  animation-delay: 0s;
+ }
+
+
+/*  VOLVER A INTENTAR PERO CON LA IMAGEN COMO UN IBJERTO DENTRO DEL DIV Y HACIENDO OVERFLOW HIDDEN PARA QUE SE ESCONDA EL RESTO. */
+
+ @keyframes circule-chucha {
+  form {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(76%);
+  }
+ }
+
+ @keyframes circule-chucha2 {
+  form {
+    transform: translateX(-200%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
  }
 
  .intruder {
@@ -65,9 +114,9 @@ form {
   align-items: center;
   position: absolute;
   top: 50%;
-  right: -17.5%;
+  left: 80%;
   transform: translate(-80%, -50%);
-  background-image: radial-gradient(at 0% 30%,#00437f, #201c42); /* , url("img/leather.jpg") */
+  background-image: radial-gradient(at 0% 30%, #154563, #091b25); /* , url("img/ribbon.png") */
   z-index: 100;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
  }
@@ -108,13 +157,9 @@ form {
   border-radius:0px 5px 5px 0px;
  }
 
- .esvigi {
-  background-image: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='162.81px' height='180.95px' viewBox='0 0 162.81 180.95' style='overflow:visible;enable-background:new 0 0 162.81 180.95;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%231b47d6;%7D%0A%3C/style%3E%3Cdefs%3E%3C/defs%3E%3Cpath class='st0' d='M162.81,124.32V56.63c0-8.14-4.34-15.66-11.39-19.73L92.8,3.05c-7.05-4.07-15.73-4.07-22.78,0L11.39,36.9 C4.34,40.97,0,48.49,0,56.63v67.69c0,8.14,4.34,15.66,11.39,19.73l58.63,33.85c7.05,4.07,15.73,4.07,22.78,0l58.63-33.85 C158.47,139.98,162.81,132.46,162.81,124.32z'/%3E%3C/svg%3E");
-  width: 162.81px;
-  height: 180.95px;
- }
-
  @media (max-width: 376px) {
+
+
 
   body {
     display: flex;
@@ -122,7 +167,6 @@ form {
     justify-content: center;
     align-items: center;
   }
-
   .logos {
     position: absolute;
     top: 12%;
@@ -135,7 +179,6 @@ form {
     left: 50%;
     transform: translate(-50%, -90%);
    }
-
    .left-side2 {
     background-image: url("img/RESTOS-SM-06.png");
     background-size:cover;
@@ -145,9 +188,9 @@ form {
     flex: 0 0 40%;
    }
    
-   .right-side2 {
+   .right-side2 {/* 
     border-radius:0px 5px 5px 0px;
-    box-shadow: -10px 0px 40px rgba(0, 0, 0, 0.336);
+    box-shadow: -10px 0px 40px rgba(0, 0, 0, 0.336); */
     flex: 0 0 60%;
    }
 
@@ -166,6 +209,7 @@ form {
    }
 
     /* HASTA AQUI LAS CLASES ANIADIDAS PARA SM DEVICES */
+
 
   .textos-bottom {
     position: absolute;
@@ -206,6 +250,7 @@ form {
     font-size: 0.65em;
    }
   
+
   .logos {
     position: absolute;
     top: 18%;
@@ -219,6 +264,7 @@ form {
     transform: translate(-50%, -90%);
    }
 
+
   .intruder h5  {
     color: white;
     text-align: center;
@@ -231,14 +277,15 @@ form {
     background-image: url("img/RESTOS-SM-06.png");
     background-size:cover;
     background-position: center;
+    /* NO ES ESTE PORQUE CREO QUE LA IMAGEN LLENA CON LAS JUSTAS */
     background-repeat: no-repeat;
     border-radius:5px 0px 0px 5px;
     flex: 0 0 40%;
    }
    
-   .right-side2 {
+   .right-side2 {/* 
     border-radius:0px 5px 5px 0px;
-    box-shadow: -10px 0px 40px rgba(0, 0, 0, 0.336);
+    box-shadow: -10px 0px 40px rgba(0, 0, 0, 0.336); */
     flex: 0 0 60%;
    }
 
@@ -257,6 +304,7 @@ form {
    }
  }
 
+
  @media (min-width: 481px) and (max-width: 1022px) {
   .left-side2 {
     background-image: url("img/297095123_5293358030742651_5627364099322196086_n.jpg");
@@ -270,11 +318,11 @@ form {
    }
    
    .right-side2 {
-    background-image: radial-gradient(at 0% 30%, #ffffff54, #ffffff5e), url("img/leather.jpg");
+    background-image: radial-gradient(at 0% 30%, #ffffff54, #ffffff5e), url("img/ribbon.png");
     height: 100svh;
-    width: 100svw;
+    width: 100svw;/* 
     border-radius:0px 5px 5px 0px;
-    box-shadow: -10px 0px 40px rgba(0, 0, 0, 0.336);
+    box-shadow: -10px 0px 40px rgba(0, 0, 0, 0.336); */
     flex:0 0 50%;
    }
  }
@@ -314,9 +362,10 @@ form {
   .container {
     height: 70svh;
     width: 70svw;
-    background-color: #201c42;
+    background-color: 201c42;
     align-self: center;
     border-radius: 10px;
+  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -326,6 +375,7 @@ form {
     background-image: url("img/INTRANET-01.png");
     background-size:cover;
     background-position: right center;
+    /* este tampoco */
     background-repeat: no-repeat;
     height: 100svh;
     width: 100svw;
@@ -336,9 +386,9 @@ form {
    .right-side2 {
     background-color: #d8d8d8;
     height: 100svh;
-    width: 100svw;
+    width: 100svw;/* 
     border-radius:0px 5px 5px 0px;
-    box-shadow: -10px 0px 40px rgba(0, 0, 0, 0.336);
+    box-shadow: -10px 0px 40px rgba(0, 0, 0, 0.336); */
     flex:0 0 30%;
    }
   
