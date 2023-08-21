@@ -56,6 +56,28 @@ form {
   width: 100%;
   opacity: 1;
   flex: 0 0 10%;
+  display: flex;
+  justify-content: center;
+ }
+
+ .title {
+  margin-inline: auto;
+  margin-block: auto;
+  color: #d9b850;
+  font-family: 'roboto condensed';
+  font-weight: 600;
+  font-size: 2em;
+  
+ }
+ 
+ .leave {
+  height: 1vh;
+  margin-block: auto;
+ }
+
+ .logosplendor {
+  height: 4vh;
+  margin-block: auto;
  }
  
  .middle-side2 {
@@ -156,11 +178,6 @@ form {
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
  }
 
- .logos {
-  position: absolute;
-  top: 20%;
-  left: 50%;
- }
 
  .log-trio {
   max-width: 270px;
