@@ -57,7 +57,7 @@ form {
   opacity: 1;
   flex: 0 0 10%;
   display: flex;
-  justify-content: center;
+  padding-inline: 2em;
  }
 
  .title {
@@ -67,9 +67,9 @@ form {
   font-family: 'roboto condensed';
   font-weight: 600;
   font-size: 2em;
-  
+  text-align: center;
  }
- 
+
  .leave {
   height: 1vh;
   margin-block: auto;
@@ -96,6 +96,25 @@ form {
   background-color: #f2f2f2;
   border-radius: 0px 0px 10px 10px;
   flex:0 0 10% ;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+
+ }
+
+ .under-title {
+/*   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center; */
+  color: #acacac;
+  font-family: 'roboto condensed';
+  font-weight: 300;
+  font-size: 0.1;
+  text-align: center;
+  line-height: 0.1;
+
  }
 
  .button-box {
