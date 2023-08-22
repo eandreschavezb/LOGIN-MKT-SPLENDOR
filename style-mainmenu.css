@@ -176,16 +176,6 @@ html, body {
 
   body {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
- }
-
- @media (min-width: 383px) and (max-width: 480px) {
-  body {
-    display: flex;
     height:auto;
     flex-direction: column;
     justify-content: center;
@@ -193,7 +183,7 @@ html, body {
   }
 
   .container {
-    height: 95svh;
+    height: auto;
     width: 100svw;
     display: flex;
     flex-direction: column;
@@ -259,15 +249,30 @@ html, body {
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-    width: 100svw;
+    width: 90svw;
+    gap: 1em;
+    padding-top: 3svh;
     /* background-color: #cea931; */
     height: 90%;
    }
 
-   .button-main {
-    
-   }
-  
+   .spanish-inquisition {
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap;
+    gap: 1em;
+    width: 100svw;
+    padding-bottom: 2em;
+    /* padding-right: 1svw; 
+    padding-left: 1svw; */
+  }
+
+  .spanish-inquisition .button-main {
+    gap: 3svw;
+    flex:0 0 100%;/* 
+    background-color: #f81c14; */
+  }
+ 
    .button-box .button-main {
     flex:0 0 45%;
    }
@@ -281,6 +286,158 @@ html, body {
     font-size: 1.2em;
     text-align: center;
    }
+
+   .iconos-responsivos {
+    height: 10svh;
+    transition: transform 800ms,
+                filter 800ms;
+    }
+  
+  .iconos-responsivos:hover,
+  .iconos-responsivos:focus-visible {
+    transform: translateY(-0.5rem);
+    filter: hue-rotate(-7deg)
+            brightness(85%);
+    transition: transform 250ms,
+                filter 350ms;
+  }
+  
+   
+
+
+ }
+
+ 
+
+ @media (min-width: 383px) and (max-width: 480px) {
+  body {
+    display: flex;
+    height:auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    height: auto;
+    width: 100svw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;/* 
+    align-self: center; */
+    align-items: center;/* 
+    padding-top: 5svh;
+    padding-bottom: 5svh; */
+    /* padding-right: 0svw;
+    padding-left: 0svw; */
+  }
+
+  .upper-side2 {
+    background-color: #201c42;
+    border-radius: 10px 10px 0px 0px;
+    width: 95svw;
+    opacity: 1;
+    flex: 0 0 10%;
+    display: flex;
+    padding-inline: 2em;
+   }
+
+  .middle-side2 {
+    width: 95svw;
+    flex:0 0 80%;
+    display: flex;
+    align-items: center;/* 
+    background-color: #ffffff; */
+   }
+
+   .bottom-side2 {
+    width: 95svw;
+    opacity: 1;
+    background-color: #f2f2f2;
+    color: #acacac;
+    border-radius: 0px 0px 10px 10px;
+    flex:0 0 10% ;
+    display: flex;
+    flex-direction: column;
+    font-family: 'roboto condensed';
+    /* justify-content: center; */
+    padding-top: 2.15svh;
+    padding-bottom: 0.5svh;
+    align-items: center;
+   }
+  
+   .bottom-side2 h3 {
+    font-size: 1.1em;
+    font-weight: 700;
+    text-align: center;
+    line-height: 0.8;
+   }
+  
+   .bottom-side2 p {
+    font-size: 0.7em;
+    font-weight: 700;
+    text-align: center;
+    line-height: 0.6;
+   }
+
+   .button-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90svw;
+    gap: 1em;
+    padding-top: 3svh;
+    /* background-color: #cea931; */
+    height: 90%;
+   }
+
+   .spanish-inquisition {
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap;
+    gap: 1em;
+    width: 100svw;
+    padding-bottom: 2em;
+    /* padding-right: 1svw; 
+    padding-left: 1svw; */
+  }
+
+  .spanish-inquisition .button-main {
+    gap: 3svw;
+    flex:0 0 100%;/* 
+    background-color: #f81c14; */
+  }
+ 
+   .button-box .button-main {
+    flex:0 0 45%;
+   }
+
+   .title {
+    margin-inline: auto;
+    margin-block: auto;
+    color: #d9b850;
+    font-family: 'roboto condensed';
+    font-weight: 700;
+    font-size: 1.2em;
+    text-align: center;
+   }
+
+   .iconos-responsivos {
+    height: 10svh;
+    transition: transform 800ms,
+                filter 800ms;
+    }
+  
+  .iconos-responsivos:hover,
+  .iconos-responsivos:focus-visible {
+    transform: translateY(-0.5rem);
+    filter: hue-rotate(-7deg)
+            brightness(85%);
+    transition: transform 250ms,
+                filter 350ms;
+  }
+  
    
 
 
