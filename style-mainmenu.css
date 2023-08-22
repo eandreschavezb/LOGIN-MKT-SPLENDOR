@@ -1,3 +1,6 @@
+
+
+
 :root {
   --font-family: 'Roboto Condensed', sans-serif;
 }
@@ -11,33 +14,12 @@ html, body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-image: radial-gradient(at left 10%,  #acacac, #acacac);
-}
-
-.intruder h5  {
-  color: white;
-  text-align: center;
-  font-size: 1.35em;
-  font-weight: 500;
-  line-height: 1.1;
-}
-
-.intruder div .btn  {
-  color: white;
-  font-size: 1em;
-  font-weight: 900;
-  text-align: center;
-  background-color: #a5763e;
-}
-
-form {
-  color: white;
-  font-size: 0.75em;
+  background-image: radial-gradient(at left 10%,  #d8d8d8, #dadada);
 }
 
 .container {
-  height: 70svh;
-  width: 70svw;
+  height: 80svh;
+  width: 100svw;
   display: flex;
   flex-direction: column;
   justify-content: center;/* 
@@ -45,15 +27,14 @@ form {
   align-items: center;/* 
   padding-top: 5svh;
   padding-bottom: 5svh; */
-  padding-right: 0svw;
-  padding-left: 0svw;
+  /* padding-right: 0svw;
+  padding-left: 0svw; */
 }
 
 .upper-side2 {
-  
   background-color: #201c42;
   border-radius: 10px 10px 0px 0px;
-  width: 100%;
+  width: 80svw;
   opacity: 1;
   flex: 0 0 10%;
   display: flex;
@@ -81,7 +62,7 @@ form {
  }
  
  .middle-side2 {
-  width: 100%;
+  width: 80svw;
   opacity: 1;
   flex:0 0 80%;
   display: flex;
@@ -91,7 +72,7 @@ form {
  }
 
  .bottom-side2 {
-  width: 100%;
+  width: 80svw;
   opacity: 1;
   background-color: #f2f2f2;
   color: #acacac;
@@ -101,7 +82,8 @@ form {
   flex-direction: column;
   font-family: 'roboto condensed';
   /* justify-content: center; */
-  padding-top: 15px;
+  padding-top: 2.15svh;
+  padding-bottom: 0.5svh;
   align-items: center;
  }
 
@@ -119,15 +101,6 @@ form {
   line-height: 0.6;
  }
 
-/*  .under-title {
-  color: #acacac;
-  font-family: 'roboto condensed';
-  font-weight: 300;
-  font-size: 0.9em;
-  text-align: center;
-  line-height: 0.1;
- } */
-
  .button-box {
   display: flex;
   flex-direction: row;
@@ -137,7 +110,6 @@ form {
   height: 90%;
  }
  
-
  .button-main {
   display: flex;
   flex-direction: column;
@@ -149,11 +121,6 @@ form {
  .button-box .button-main {
   flex:0 0 20%;
  }
-
- /* PRIOR
- .button-box .button-main {
-  flex:0 0 20%;
- } */
 
  .clickable {
   background-image:radial-gradient(at right 10%,  #f5f5f5, #f1f1f1);
@@ -179,15 +146,10 @@ form {
  }
 
  .iconos-responsivos {
-/*   min-height: 15svh; */
   height: 15svh;
   transition: transform 800ms,
               filter 800ms;
   }
-
- /* .iconos-responsivos {
-  transition: transform 800ms;
-} */
 
 .iconos-responsivos:hover,
 .iconos-responsivos:focus-visible {
@@ -198,52 +160,15 @@ form {
               filter 350ms;
 }
 
- .intruder {
-  height: 70svh;
-  width: 50svh;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 50%;
-  right: -17.5%;
-  transform: translate(-80%, -50%);
-  background-image: radial-gradient(at 0% 30%,#00437f, #201c42); /* , url("img/leather.jpg") */
-  z-index: 100;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
- }
-
-
- .log-trio {
-  max-width: 270px;
-  top: 100%;
-  left: 50%;
-  transform: translate(-50%, -90%);
- }
-
- .textos-bottom {
-  position: absolute;
-  bottom: 0%;
-  left: 50%;
-  transform: translate(-50%, -150%);
- }
-
- .textos-bottom small {
-  font-size: 0.8em;
- }
-
-
- .left-side {
-  height: 67svh; 
-  border-radius:5px 0px 0px 5px;
- }
- 
- .right-side {
-  height: 67svh;
-  border-radius:0px 5px 5px 0px;
- }
+.spanish-inquisition {
+  display: flex; 
+  flex-direction: row; 
+  width: 40svw; 
+  margin-inline: auto; 
+  justify-content: space-evenly; 
+  padding-right: 1svw; 
+  padding-left: 1svw;
+}
 
 
 
@@ -256,160 +181,189 @@ form {
     align-items: center;
   }
 
-  .logos {
-    position: absolute;
-    top: 12%;
-    left: 50%;
-   }
-
-  .log-trio {
-    max-width: 230px;
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%, -90%);
-   }
-
-   .left-side2 {
-    background-image: url("img/RESTOS-SM-06.png");
-    background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius:5px 0px 0px 5px;
-    flex: 0 0 40%;
-   }
-   
-   .right-side2 {
-    border-radius:0px 5px 5px 0px;
-    box-shadow: -10px 0px 40px rgba(0, 0, 0, 0.336);
-    flex: 0 0 60%;
-   }
-
-   .intruder {
-    height: 75svh;
-    width: 40svh;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 100;
-   }
-
-    /* HASTA AQUI LAS CLASES ANIADIDAS PARA SM DEVICES */
-
-  .textos-bottom {
-    position: absolute;
-    bottom: 0%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-   }
-
-   .textos-bottom small {
-    font-size: 0.69em;
-   }
-
-   .intruder h5  {
-    color: white;
-    text-align: center;
-    font-size: 1.05em;
-    font-weight: 500;
-    line-height: 1.1;
-  }
  }
 
  @media (min-width: 383px) and (max-width: 480px) {
   body {
     display: flex;
+    height:auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .textos-bottom {
-    position: absolute;
-    bottom: 0%;
-    left: 50%;
-    transform: translate(-50%, -100%);
-   }
-  
-   .textos-bottom small {
-    font-size: 0.65em;
-   }
-  
-  .logos {
-    position: absolute;
-    top: 18%;
-    left: 50%;
-   }
-
-  .log-trio {
-    max-width: 230px;
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%, -90%);
-   }
-
-  .intruder h5  {
-    color: white;
-    text-align: center;
-    font-size: 1.2em;
-    font-weight: 500;
-    line-height: 1.1;
+  .container {
+    height: 95svh;
+    width: 100svw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;/* 
+    align-self: center; */
+    align-items: center;/* 
+    padding-top: 5svh;
+    padding-bottom: 5svh; */
+    /* padding-right: 0svw;
+    padding-left: 0svw; */
   }
 
-  .left-side2 {
-    background-image: url("img/RESTOS-SM-06.png");
-    background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius:5px 0px 0px 5px;
-    flex: 0 0 40%;
-   }
-   
-   .right-side2 {
-    border-radius:0px 5px 5px 0px;
-    box-shadow: -10px 0px 40px rgba(0, 0, 0, 0.336);
-    flex: 0 0 60%;
+  .upper-side2 {
+    background-color: #201c42;
+    border-radius: 10px 10px 0px 0px;
+    width: 95svw;
+    opacity: 1;
+    flex: 0 0 10%;
+    display: flex;
+    padding-inline: 2em;
    }
 
-   .intruder {
-    height: 75svh;
-    width: 40svh;
-    border-radius: 5px;
+  .middle-side2 {
+    width: 95svw;
+    flex:0 0 80%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 100;
+    align-items: center;/* 
+    background-color: #ffffff; */
    }
+
+   .bottom-side2 {
+    width: 95svw;
+    opacity: 1;
+    background-color: #f2f2f2;
+    color: #acacac;
+    border-radius: 0px 0px 10px 10px;
+    flex:0 0 10% ;
+    display: flex;
+    flex-direction: column;
+    font-family: 'roboto condensed';
+    /* justify-content: center; */
+    padding-top: 2.15svh;
+    padding-bottom: 0.5svh;
+    align-items: center;
+   }
+  
+   .bottom-side2 h3 {
+    font-size: 1.1em;
+    font-weight: 700;
+    text-align: center;
+    line-height: 0.8;
+   }
+  
+   .bottom-side2 p {
+    font-size: 0.7em;
+    font-weight: 700;
+    text-align: center;
+    line-height: 0.6;
+   }
+
+   .button-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100svw;
+    /* background-color: #cea931; */
+    height: 90%;
+   }
+
+   .button-main {
+    
+   }
+  
+   .button-box .button-main {
+    flex:0 0 45%;
+   }
+
+   .title {
+    margin-inline: auto;
+    margin-block: auto;
+    color: #d9b850;
+    font-family: 'roboto condensed';
+    font-weight: 700;
+    font-size: 1.2em;
+    text-align: center;
+   }
+   
+
+
  }
 
  @media (min-width: 481px) and (max-width: 1022px) {
-  .left-side2 {
-    background-image: url("img/297095123_5293358030742651_5627364099322196086_n.jpg");
-    background-size:cover;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    height: 100svh;
+  .container {
+    height: 95svh;
     width: 100svw;
-    border-radius:5px 0px 0px 5px;
-    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;/* 
+    align-self: center; */
+    align-items: center;/* 
+    padding-top: 5svh;
+    padding-bottom: 5svh; */
+    padding-right: 0svw;
+    padding-left: 0svw;
+  }
+
+  .button-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50svw;/* 
+    background-color: #cea931; */
+    height: 90%;
    }
-   
-   .right-side2 {
-    background-image: radial-gradient(at 0% 30%, #ffffff54, #ffffff5e), url("img/leather.jpg");
-    height: 100svh;
-    width: 100svw;
-    border-radius:0px 5px 5px 0px;
-    box-shadow: -10px 0px 40px rgba(0, 0, 0, 0.336);
-    flex:0 0 50%;
+
+   .spanish-inquisition {
+    display: flex; 
+    flex-direction: row; 
+    gap: 1svw;
+    width: 100%;
+    /* padding-right: 1svw; 
+    padding-left: 1svw; */
+  }
+
+  .spanish-inquisition .clickable {
+    gap: 2svw;    /* THIS */
+  }
+
+   .button-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+    margin-inline: auto;
    }
+  
+   .button-box .button-main {
+    flex:0 0 1%;
+
+   }
+
+   .spanish-inquisition .button-main {
+    gap: 3svw;
+    flex:0 0 15%;/* 
+    background-color: #f81c14; */
+  }
+
+  .bottom-side2 {
+    padding-top: 3.25svh;
+    padding-bottom: 0.25svh;
+    align-items: center;
+   }
+  
+   .bottom-side2 h3 {
+    font-size: 1.1em;
+    font-weight: 700;
+    text-align: center;
+    line-height: 0.8;
+   }
+  
+   .bottom-side2 p {
+    font-size: 0.7em;
+    font-weight: 700;
+    text-align: center;
+    line-height: 0.6;
+   }
+
+
  }
 
  @media (min-width: 1023px) and (max-width: 1199px) {
@@ -455,84 +409,51 @@ form {
     justify-content: center;
     align-items: center;
   }
-  
-  .intruder h5  {
-    color: white;
-    text-align: center;
-    font-size: 1.35em;
-    font-weight:300;
-    line-height: 1.1;
-  }
-  
-  .intruder div .btn  {
-    color: white;
-    font-size: 1em;
-    font-weight: 900;
-    text-align: center;
-    background-color: #a5763e;
-  }
-  
-  form {
-    color: white;
-    font-size: 0.75em;
-  }
-  
+
   .container {
-    height: 70svh;
-    width: 70svw;
-    align-self: center;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .left-side2 {
-    background-image: url("img/INTRANET-01.png");
-    background-size:cover;
-    background-position: right center;
-    background-repeat: no-repeat;
-    height: 100svh;
+    height: 80svh;
     width: 100svw;
-    border-radius:5px 0px 0px 5px;
-    flex: 0 0 70%;
-   }
-   
-   .right-side2 {
-    background-color: #d8d8d8;
-    height: 100svh;
-    width: 100svw;
-    border-radius:0px 5px 5px 0px;
-    box-shadow: -10px 0px 40px rgba(0, 0, 0, 0.336);
-    flex:0 0 30%;
-   }
-  
-   .intruder {
-    height: 85svh;
-    width: 60svh;
-    border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 50%;
-    left: 80%;
-    transform: translate(-80%, -50%);
-    z-index: 100;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    justify-content: center;/* 
+    align-self: center; */
+    align-items: center;/* 
+    padding-top: 5svh;
+    padding-bottom: 5svh; */
+    padding-right: 0svw;
+    padding-left: 0svw;
+  }
+
+  .spanish-inquisition {
+    display: flex; 
+    flex-direction: row; 
+    width: 37svw; /* no */
+    margin-inline: auto; 
+    justify-content: space-between; 
+    padding-right: 0svw; 
+    padding-left: 0svw;
+  }
+
+
+
+  .clickable {
+    background-image:radial-gradient(at right 10%,  #f5f5f5, #f1f1f1);
+    font-family: 'roboto condensed';
+    font-weight: 100;
+    color: #d9b850;
+    padding-inline: 1.25svw;
+    padding-block: 1.25svh;
+    border-radius: 5%;
+    transition: transform 300ms,
+                color 250ms,
+                background-image 250ms;
    }
-
-   .textos-bottom {
-    position: absolute;
-    bottom: 0%;
-    left: 50%;
-    transform: translate(-50%, -100%);
-   }
-
-   .textos-bottom small {
-    font-size: 0.69em;
-   }
-
-
+  
+   .iconos-responsivos {
+    height: 15svh;
+    transition: transform 800ms,
+                filter 800ms;
+    }
+    
+  
  }
