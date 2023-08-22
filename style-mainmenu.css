@@ -203,7 +203,7 @@ html, body {
     opacity: 1;
     flex: 0 0 10%;
     display: flex;
-    padding-inline: 2em;
+    padding-block: 0.5em;
    }
 
   .middle-side2 {
@@ -339,7 +339,7 @@ html, body {
     opacity: 1;
     flex: 0 0 10%;
     display: flex;
-    padding-inline: 2em;
+    padding-block: 0.5em;
    }
 
   .middle-side2 {
