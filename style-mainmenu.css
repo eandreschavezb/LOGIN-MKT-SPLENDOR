@@ -33,7 +33,7 @@ html, body {
   opacity: 1;
   flex: 0 0 10%;
   display: flex;
-  padding-inline: 2em;
+  padding-inline: 1em;
  }
 
  .title {
@@ -100,7 +100,7 @@ html, body {
   align-items: center;
   flex-wrap: wrap;
   width: 70%;
-  height: 75%;
+  height: 90%;
  }
  
  .button-main {
@@ -139,7 +139,7 @@ html, body {
  }
 
  .iconos-responsivos {
-  height: 20svh;
+  height: 18svh;
   transition: transform 800ms,
               filter 800ms;
   }
@@ -170,6 +170,10 @@ html, body {
   justify-content: center;
 }
 
+.button-main .text-center {
+  font-size: 1.1em;
+}
+
  @media (max-width: 376px) {
 
   body {
@@ -179,6 +183,7 @@ html, body {
     justify-content: center;
     align-items: center;
   }
+
 
   .contenedor {
     height: auto;
@@ -273,10 +278,15 @@ html, body {
    }
 
    .iconos-responsivos {
-    height: 10svh;
+    height: 5svh;
     transition: transform 800ms,
                 filter 800ms;
     }
+
+    
+  .button-main .text-center {
+    font-size: 0.8em;
+  }
   
   .iconos-responsivos:hover,
   .iconos-responsivos:focus-visible {
@@ -391,11 +401,11 @@ html, body {
    }
 
    .iconos-responsivos {
-    height: 10svh;
+    height: 9svh;
     transition: transform 800ms,
                 filter 800ms;
     }
-  
+
   .iconos-responsivos:hover,
   .iconos-responsivos:focus-visible {
     transform: translateY(-0.5rem);
@@ -404,7 +414,11 @@ html, body {
     transition: transform 250ms,
                 filter 350ms;
   }
-
+      
+  .button-main .text-center {
+    font-size: 0.85em;
+  }
+  
  }
 
  @media (min-width: 481px) and (max-width: 1022px) {
@@ -475,9 +489,13 @@ html, body {
    }
 
    .iconos-responsivos {
-    height: 15svh;
+    height: 14svh;
     transition: transform 800ms,
                 filter 800ms;
+    }
+
+    .button-main .text-center {
+      font-size: 0.8em;
     }
 
 
@@ -530,7 +548,7 @@ html, body {
      }
 
       .button-main .text-center {
-        font-size: 0.7em;
+        font-size: 0.8em;
       }
 
 /*       body {
