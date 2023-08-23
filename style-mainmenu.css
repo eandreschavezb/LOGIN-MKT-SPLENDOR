@@ -14,17 +14,21 @@ html, body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-image: radial-gradient(at left 10%,  #d8d8d8, #dadada);
+  background-image: url("img/textura-mkt.png"), radial-gradient(at left 10%,  #afafaf, #dadada);
 }
 
-.container {
-  height: 80svh;
-  width: 100svw;
+.contenedor {
+  height: 90%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;/* 
   align-self: center; */
-  align-items: center;/* 
+  align-items: center;
+  box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.075), 0 6px 6px rgba(0, 0, 0, 0.158);
+  padding-right: 0;
+  padding-left: 0;
+  border-radius: 10px;/* 
   padding-top: 5svh;
   padding-bottom: 5svh; */
   /* padding-right: 0svw;
@@ -34,7 +38,7 @@ html, body {
 .upper-side2 {
   background-color: #201c42;
   border-radius: 10px 10px 0px 0px;
-  width: 80svw;
+  width: 100%;
   opacity: 1;
   flex: 0 0 10%;
   display: flex;
@@ -62,7 +66,7 @@ html, body {
  }
  
  .middle-side2 {
-  width: 80svw;
+  width: 100%;
   opacity: 1;
   flex:0 0 80%;
   display: flex;
@@ -72,7 +76,7 @@ html, body {
  }
 
  .bottom-side2 {
-  width: 80svw;
+  width: 100%;
   opacity: 1;
   background-color: #f2f2f2;
   color: #acacac;
@@ -182,7 +186,7 @@ html, body {
     align-items: center;
   }
 
-  .container {
+  .contenedor {
     height: auto;
     width: 100svw;
     display: flex;
@@ -313,14 +317,15 @@ html, body {
   body {
     display: flex;
     height:auto;
+    width: 100svw;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .container {
-    height: auto;
-    width: 100svw;
+  .contenedor {
+    height: 90%;
+    width: 95%;
     display: flex;
     flex-direction: column;
     justify-content: center;/* 
@@ -335,7 +340,7 @@ html, body {
   .upper-side2 {
     background-color: #201c42;
     border-radius: 10px 10px 0px 0px;
-    width: 95svw;
+    width: 100%;
     opacity: 1;
     flex: 0 0 10%;
     display: flex;
@@ -343,7 +348,7 @@ html, body {
    }
 
   .middle-side2 {
-    width: 95svw;
+    width: 100%;
     flex:0 0 80%;
     display: flex;
     align-items: center;/* 
@@ -351,7 +356,7 @@ html, body {
    }
 
    .bottom-side2 {
-    width: 95svw;
+    width: 100%;
     opacity: 1;
     background-color: #f2f2f2;
     color: #acacac;
@@ -444,9 +449,9 @@ html, body {
  }
 
  @media (min-width: 481px) and (max-width: 1022px) {
-  .container {
-    height: 95svh;
-    width: 100svw;
+  .contenedor {
+    height: 90%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;/* 
@@ -567,9 +572,9 @@ html, body {
     align-items: center;
   }
 
-  .container {
-    height: 80svh;
-    width: 100svw;
+  .contenedor {
+    height: 90%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;/* 
