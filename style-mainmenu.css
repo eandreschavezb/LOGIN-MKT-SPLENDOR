@@ -67,10 +67,9 @@ html, body {
  }
 
  .bottom-side2 {
-  width: 100%;/* 
-  background-color: #f2f2f2; */
-  background-image: url("img/other-texture-02-01.png"), 
-                    radial-gradient(circle at bottom center,  #c4c4c44b, #b8b8b849);
+  width: 100%;
+  background-image: url("img/other-texture-01-01.png"), 
+                    radial-gradient(circle at bottom center,  #9797977c, #8686869c);
   background-size: cover;
   background-position: center;
   color: #797979;
@@ -211,7 +210,7 @@ html, body {
     width: 100%;
     opacity: 1;
     /* background-color: #f2f2f2; */
-    color: #acacac;
+    color: #797979;
     border-radius: 0px 0px 10px 10px;
     flex:0 0 10% ;
     display: flex;
@@ -332,7 +331,7 @@ html, body {
     width: 100%;
     opacity: 1;
     /* background-color: #f2f2f2; */
-    color: #acacac;
+    color: #797979;
     border-radius: 0px 0px 10px 10px;
     flex:0 0 10% ;
     display: flex;
@@ -491,12 +490,29 @@ html, body {
                   filter 800ms;
      }
 
-     .bottom-side2 {
-      /* background-color: #f2f2f2; */
-      color: #acacac;
-      flex:0 0 10% ;
-      font-family: 'roboto condensed';
+     .upper-side2 {
+      background-color: #0e3264;
+      border-radius: 10px 10px 0px 0px;
+      width: 100%;
+      opacity: 1;
+      flex: 0 0 10%;
+      display: flex;
+      padding-block: 0.5em;
+     }
+  
+    .middle-side2 {
+      width: 100%;
+      flex:0 0 75%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       align-items: center;
+      align-content: center;
+     }
+
+     .bottom-side2 {
+      color: #797979;
+      flex:0 0 13.2% ;
      }
     
      .bottom-side2 h3 {
@@ -517,14 +533,14 @@ html, body {
         font-size: 0.7em;
       }
 
-      body {
+/*       body {
         height: 100svh;
         width: 100svw;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-      }
+      } */
 
       .contenedor {
         height: 90%;
@@ -533,8 +549,7 @@ html, body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-right: 0svw;
-        padding-left: 0svw;
+        padding: 0px;
       }
 
       .clickable {
@@ -560,8 +575,7 @@ html, body {
         display: flex; 
         flex-direction: row; 
         width: 75%; 
-        padding-top: 1em;
-        margin-inline: auto; 
+        padding-top: 1em; 
         justify-content: space-between; 
         padding-right: 0svw; 
         padding-left: 0svw;
@@ -572,7 +586,6 @@ html, body {
           flex-direction: row;
           align-items: center;
           flex-wrap: wrap;
-          
           width: 70%;
          }
       
