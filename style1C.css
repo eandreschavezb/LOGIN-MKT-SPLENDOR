@@ -31,8 +31,8 @@ body {
 
 .intruder div .btn  {
   color: white;
-  font-size: 1em;
-  font-weight: 900;
+  font-size: 0.8em;
+  font-weight: 400;
   text-align: center;
   background-color: #a5763e;
 }
@@ -97,7 +97,7 @@ body {
  }
 
  .log-trio {
-  max-width: 250px;
+  max-width: 150px;
   top: 100%;
   left: 50%;
   transform: translate(-50%, -90%);
@@ -109,7 +109,7 @@ body {
 
  label {
   color: rgb(214, 214, 214);
-  font-size: 0.75em;
+  font-size: 0.9em;
  }
 
  .textos-bottom {
@@ -146,11 +146,11 @@ body {
 
   .contenido1 {
     position: absolute;
-    left: 0;
-    top: 0;
+    left: 1svw;
+    top: 1svh;
     bottom: auto;
     opacity: 1;
-    font-size: 3.40em;
+    font-size: 2.9em;
     font-weight: 100;
    }
 
@@ -167,7 +167,7 @@ body {
    }
 
   .log-trio {
-    max-width: 180px;
+    max-width: 100px;
     top: 100%;
     left: 50%;
     transform: translate(-50%, -90%);
@@ -213,7 +213,7 @@ body {
    }
 
    .textos-bottom small {
-    font-size: 0.69em;
+    font-size: 0.6em;
    }
 
    .intruder h5  {
@@ -228,13 +228,13 @@ body {
  @media (min-width: 383px) and (max-width: 480px) {
   .contenido1 {
     position: absolute;
-    left: 0;
-    left: 0;
-    top: 0;
+    left: 1svw;
+    top: 1svh;
     bottom: auto;
     opacity: 0.7;
     font-size: 3.48em;
     font-weight: 100;
+    color: white;
    }
 
   body {
@@ -263,7 +263,7 @@ body {
    }
 
   .log-trio {
-    max-width: 230px;
+    max-width: 130px;
     top: 100%;
     left: 50%;
     transform: translate(-50%, -90%);
@@ -313,30 +313,29 @@ body {
    }
  }
 
-
  @media (min-width: 481px) and (max-width: 1022px) {
   .contenido1 {
     position: absolute;
-    left: -75svw;
-    top: 75svh;
+    left: 2svw;
+    bottom: 2svh;
     opacity: 0.7;
-    font-size: 7.48em;
+    font-size: 3.18em;
     font-weight: 100;
-    text-align: right;
+    text-align: left;
     transform-origin: top right;
-    transform: rotate(90deg);
-    color: #e70c0c;
+    /* transform: rotate(90deg); */
+    color: #ffffff;
    }
 
   .left-side2 {
-    background-image: url("img/UPPER-SMPL-TRF.jpeg");
+    background-image: url("img/TENDERO-neg.png");
     background-size:cover;
-    background-position: center;
+    background-position: 45% 0%;
     background-repeat: no-repeat;
     height: 100svh;
     width: 100svw;
     border-radius:5px 0px 0px 5px;
-    flex: 0 0 50%;
+    flex: 0 0 65%;
    }
    
    .right-side2 {
@@ -348,7 +347,7 @@ body {
     width: 10svw;
     align-self: end;
 
-    flex: 0 0 50%;
+    flex: 0 0 35%;
    }
 
    .intruder {
@@ -360,7 +359,7 @@ body {
     align-items: center;
     position: absolute;
     top: 50%;
-    left: 68%;
+    left: 69%;
     transform: translate(-50%, -50%);
     z-index: 100;
    }
@@ -371,8 +370,6 @@ body {
     left: 50%;
    }
  }
-
- /* ESTO NO LO PUEDE VISUALIZAR DESDE VC */
 
  @media (min-width: 1023px) and (max-width: 1199px) {
 
@@ -396,7 +393,7 @@ body {
   .intruder div .btn  {
     color: white;
     font-size: 1em;
-    font-weight: 900;
+    font-weight: 400;
     text-align: center;
     background-color: #a5763e;
   }
@@ -412,7 +409,6 @@ body {
     background-color: #201c42;
     align-self: center;
     border-radius: 10px;
-  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -422,7 +418,6 @@ body {
     background-image: url("img/TENDERO1c.png");
     background-size:cover;
     background-position: right center;
-    /* este tampoco */
     background-repeat: no-repeat;
     height: 100svh;
     width: 100svw;
@@ -433,12 +428,10 @@ body {
    .right-side2 {
     background-image: radial-gradient(at 0% 30%, #ffffff21, #ffffff21), url("img/MOUNTAINS-02.png");
     background-size:cover;
-    /* background-position: bottom 0svh right -150px; */
     background-repeat: no-repeat;
     height: 28svh;
     width: 10svw;
     align-self: end;
-
     flex: 0 0 50%;
    }
   
@@ -467,6 +460,11 @@ body {
 
    .textos-bottom small {
     font-size: 0.69em;
+   }
+
+   label {
+    color: rgb(214, 214, 214);
+    font-size: 1em;
    }
 
 
