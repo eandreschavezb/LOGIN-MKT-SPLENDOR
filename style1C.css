@@ -263,7 +263,7 @@ body {
    }
 
   .log-trio {
-    max-width: 130px;
+    max-width: 105px;
     top: 100%;
     left: 50%;
     transform: translate(-50%, -90%);
@@ -285,28 +285,30 @@ body {
     /* NO ES ESTE PORQUE CREO QUE LA IMAGEN LLENA CON LAS JUSTAS */
     background-repeat: no-repeat;
     border-radius:5px 0px 0px 5px;
-    flex: 0 0 40%;
+    flex: 0 0 45%;
    }
    
    .right-side2 {
     background-image: radial-gradient(at 0% 30%, #ffffff21, #ffffff21), url("img/MOUNTAINS-02.png");
-    background-size:cover;
+    background-size: 150%;
+    background-position:0% 95%;
     background-repeat: no-repeat;
     height: auto;
     width: 100%;
     aspect-ratio: 1 /1;
-    flex: 0 0 60%;
+    flex: 0 0 55%;
    }
 
    .intruder {
-    height: 75svh;
+    opacity: 1;
+    height: 55svh;
     width: 40svh;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 50%;
+    top: 66%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 100;
