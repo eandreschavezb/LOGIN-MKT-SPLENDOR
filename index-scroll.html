@@ -4,15 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="/styleScroll.css" rel="stylesheet" type="text/css" />
+    
     <title>parallax</title>
 </head>
 <body>
     <div class="fondo"></div>
-    <div class="cascada"></div>
-    <div class="arboles"></div>
-    <div class="gente"></div>
-    <div class="animales"></div>
-    <div class=""></div>
-    
+    <div class="rellax volcano" data-rellax-speed="-10"></div>
+    <div class="whitespace"></div>
+    <div class="rellax text" data-rellax-speed="-2"></div>
+    <div class="rellax foremounts" data-rellax-speed="0"></div>
+    <div class="rellax ferns1" data-rellax-speed="10"></div>  
+    <div class="rellax ferns2" data-rellax-speed="10"></div>  
+    <div class="content">
+        <h1>ES EL TITULO</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate commodi deleniti eligendi facilis impedit aliquam quibusdam magnam ea, officiis magni facere sint maiores eos velit laudantium hic. Architecto, eum itaque! Modi earum totam voluptatibus repellat aspernatur quas voluptas illo numquam.</p>
+    </div>  
+    <script src="/node_modules/rellax/rellax.min.js"></script>
+    <script type="text/javascript">
+        var rellax = new Rellax('.rellax')
+    </script>
 </body>
 </html>

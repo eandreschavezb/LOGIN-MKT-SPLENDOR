@@ -1,0 +1,96 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.fondo {
+    width: 100%;
+    height: 100svh;
+    position: absolute;
+    z-index: -10;
+    background: url("img/img/im-\ \(7\).png") no-repeat 50% 50%;
+    background-size: cover;
+    top: 0;
+}
+
+.volcano {
+    position: absolute;
+    width: 100%;
+    height: 100svh;
+    z-index: -5;
+    background: url("img/img/im-\ \(6\).png") no-repeat 50% 50%;
+    background-size: cover;
+    top: 0;
+}
+
+.text {
+    position: absolute;
+    width: 100%;
+    height: 100svh;
+    z-index: -2;
+    background: url("img/img/im-\ \(5\).png") no-repeat 50% 50%;
+    background-size: cover;
+    top: 0;
+    mix-blend-mode: overlay;
+}
+
+.foremounts {
+    position: absolute;
+    width: 100%;
+    height: 100svh;
+    z-index: -2;
+    background: url("img/img/im-\ \(3\).png") no-repeat 50% 50%;
+    background-size: cover;
+    top: 0;  
+}
+
+.ferns1 {
+    position: absolute;
+    width: 100%;
+    height: 100svh;
+    z-index: -2;
+    background: url("img/img/im-\ \(1\).png") no-repeat 50% 50%;
+    background-size: cover;
+    top: 0;  
+}
+.ferns2 {
+    position: absolute;
+    width: 100%;
+    height: 100svh;
+    z-index: -2;
+    background: url("img/img/im-\ \(2\).png") no-repeat 50% 50%;
+    background-size: cover;
+    top: 0;  
+}
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+    padding: 80px 0;
+    background-color: #201c42;
+    z-index: 10000;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-size: 6em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    line-height: 40px;
+    font-size: 3em;
+    width: 15em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.whitespace {
+    width: 100%;
+    height: 100svh;
+}
