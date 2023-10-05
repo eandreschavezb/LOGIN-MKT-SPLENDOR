@@ -10,7 +10,7 @@ html, body {
     width: 100%;
     height: 100%;
     color: white;
-    scroll-snap-type: y proximity;
+/*     scroll-snap-type: y mandatory; */
 }
 
 .fondo {
@@ -90,10 +90,11 @@ html, body {
     background-size: cover;
     top: 0;  
     left: 0em;
+/*     scroll-snap-align: end; */
 }
 
 .content {
-    scroll-snap-align: end;
+/*     scroll-snap-align: start; */
     width: 100%;
     height: 100svh; 
     margin: 0 auto;
@@ -233,9 +234,8 @@ p {
 .buttoncontainer {
     position: absolute;
     display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
+    justify-content: center;
+    align-items: end;
     width: 100%;
     height: 100svh;
     padding-bottom: 6em;
@@ -261,11 +261,30 @@ p {
 
       }
 
+      .arrow {
+        width: 25px;
+        height: 25px;
+        padding-left: 0;
+        padding-right: 0;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        z-index: -2;
+        background: url("img/arrw-01.png") no-repeat 50% 50%;
+        background-size: cover;
+        top: -30px;  
+        animation: borderers 1.5s infinite; 
+    }
+
+
       .putexto {
         width: 15em;
         height: 4em;
         padding-left: 1em;
         padding-right: 1em;
+        position: relative;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -273,7 +292,57 @@ p {
         line-height: 1.1; 
         color: white; 
         font-weight: 700;
+        border: 0px;
+        text-align: center;
       }
+
+      @keyframes borderers {
+        0% {
+            top: -30px;
+          opacity: 0;
+          }
+          50% {
+            opacity: 1;
+            }
+            80% {
+                opacity: 0;
+                }
+          100% {
+            top: -20px;
+            opacity: 0;
+            transform: translateY(10px);
+            }
+        }
+
+        
+
+
+      /*       .putexto::after, 
+      .putexto::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform: scaleX(0);
+        transform: scaleY(0);
+        border: 1px solid rgba(255, 255, 255, 0.877);
+      } */
+
+
+/*       .elbroder {
+        width: 15em;
+        height: 4em;
+        padding-left: 1em;
+        padding-right: 1em;
+        position: relative;
+        border: 0px;
+        animation: borderers 1s infinite;  
+      } */
+
+
+
 
 
 
@@ -304,7 +373,7 @@ p {
         opacity: 1;
         transform: scale(0.5,0.5);
       }
-      
+
       .btn-three::after {
         content: '';
         position: absolute;
