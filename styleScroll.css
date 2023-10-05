@@ -1,9 +1,16 @@
+:root {
+    --font-family: 'Roboto Condensed', sans-serif;
+    overflow-x: hidden;
+  }
+
+
 html, body {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
     color: white;
+    scroll-snap-type: y proximity;
 }
 
 .fondo {
@@ -34,7 +41,22 @@ html, body {
     background: url("img/img/im-\ \(5\).png") no-repeat 50% 50%;
     background-size: cover;
     top: 0;
+    left: 5em;
     mix-blend-mode: overlay;
+    animation: fly-ball2 120s 
+}
+
+.clouds {
+    position: absolute;
+    width: 100%;
+    height: 100svh;
+    z-index: -5;
+    opacity: 1;
+    background: url("img/img/clouds.png") no-repeat 50% 50%;
+    background-size: cover;
+    top: 0; 
+    mix-blend-mode: overlay;
+    animation: fly-ball 90s   
 }
 
 .foremounts {
@@ -55,6 +77,7 @@ html, body {
     background: url("img/img/im-\ \(1\).png") no-repeat 50% 50%;
     background-size: cover;
     top: 0;  
+    left: 0em;
 }
 .ferns2 {
     position: absolute;
@@ -64,13 +87,16 @@ html, body {
     background: url("img/img/im-\ \(2\).png") no-repeat 50% 50%;
     background-size: cover;
     top: 0;  
+    left: 0em;
 }
 
 .content {
+    scroll-snap-align: start;
     width: 100%;
+    height: 100svh; 
     margin: 0 auto;
     padding: 80px 0;
-    background-color: #201c42;
+    background: linear-gradient(180deg, rgb(38, 56, 49) 0%, rgb(28, 49, 41) 100%);
     z-index: 10000;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -94,3 +120,123 @@ p {
     width: 100%;
     height: 100svh;
 }
+
+.giffy {
+    position: absolute;
+    width: 250px;
+    height: 282px;
+    top: 585px;
+    left: 948px;
+    mix-blend-mode:overlay;
+    opacity: 0.28;
+    z-index: 100000;
+
+}
+
+
+.intruder {
+    height: 70svh;
+    width: 50svh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 5em;
+    background-image: url("img/HIGHLANDS_-02.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    z-index: 150;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+   }
+
+
+   .logos {
+    position: absolute;
+    top: 17%;
+    left: 50%;
+   }
+  
+   .log-trio {
+    max-width: 150px;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+   }
+
+   a {
+    color: inherit;
+   }
+
+   label {
+    color: rgb(214, 214, 214);
+    font-size: 0.9em;
+   }
+  
+     .contrrol {
+      background-color: transparent;
+      color: #ffffff;
+      display: block;
+      width: 100%;
+      outline: 0;
+      border: none;
+      border-bottom: 1px solid #fcfcfc;
+    }
+    .intruder h5  {
+      color: white;
+      text-align: center;
+      font-size: 1.35em;
+      font-weight: 500;
+      line-height: 1.1;
+    }
+    .intruder div .btn  {
+      color: white;
+      font-size: 0.8em;
+      font-weight: 400;
+      text-align: center;
+      background-color: #a5763e;
+    }
+  
+    .textos-bottom {
+        color: white;
+        position: absolute;
+        bottom: 0%;
+        left: 50%;
+        transform: translate(-50%, -150%);
+        z-index: 151;
+       }
+    
+     .textos-bottom small {
+      font-size: 0.8em;
+     }
+
+     .closeclouds {
+        position: absolute;
+        width: 100%;
+        height: 100svh;
+        z-index: 100;
+        background: url("img/img/clouds.png") no-repeat 50% 50%;
+        background-size: cover;
+        background-position: 100px 300px;
+        opacity: 0.4;
+        top: 0;  
+     }
+
+
+
+     @keyframes fly-ball {
+        100% {
+          transform: translateX(800px);
+          }
+        }
+
+    @keyframes fly-ball2 {
+        100% {
+          transform: translateX(-350px);
+          }
+        }
+    
