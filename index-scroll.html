@@ -38,8 +38,24 @@
     <div class="rellax fondo" data-rellax-speed="-10"></div>
     <div class="rellax volcano" data-rellax-speed="-7"></div>
     <div class="whitespace"></div>
-    <div class="rellax clouds" data-rellax-vertical-scroll-axis="xy" data-rellax-horizontal-speed="-10" data-rellax-vertical-speed="-4" data-rellax-max-x="100"></div>
-    <div class="rellax text" data-rellax-vertical-scroll-axis="xy" data-rellax-horizontal-speed="10" data-rellax-vertical-speed="-4" data-rellax-max-x="100"></div>
+    <div class="rellax clouds" 
+        data-rellax-vertical-scroll-axis="xy" 
+        data-rellax-horizontal-speed="-10" 
+        data-rellax-vertical-speed="-4" 
+        data-rellax-max-x="100">
+    </div>
+    <div class="rellax text" 
+    data-rellax-horizontal-xs-speed="10" 
+    data-rellax-vertical-xs-speed="10" 
+        data-rellax-vertical-scroll-axis="xy" 
+        data-rellax-horizontal-speed="10" 
+        data-rellax-vertical-scroll-mobile-axis="x" 
+        data-rellax-horizontal-mobile-speed="10" 
+        data-rellax-vertical-speed="-4" 
+          data-rellax-vertical-mobile-speed="10" 
+          data-rellax-max-x="5"
+        data-rellax-max-mobile-x="5">
+    </div>
     <div class="rellax foremounts" data-rellax-speed="-4">
         <img src="img/gifestupido2.gif" class="giffy" alt="">
     </div>
@@ -117,7 +133,8 @@
     <script src="/node_modules/rellax/rellax.min.js"></script>
     <script type="text/javascript">
         var rellax = new Rellax('.rellax', {
-            horizontal:true
+            horizontal:true,
+            breakpoints:[576,768,1201]
         })
     </script>
 </body>

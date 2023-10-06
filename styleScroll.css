@@ -42,8 +42,8 @@ html, body {
     background-size: cover;
     top: 0;
     left: 15em;
-    mix-blend-mode: overlay;
-    animation: fly-ball2 120s 
+    mix-blend-mode: overlay;/* 
+    animation: fly-ball2 120s  */
 }
 
 .clouds {
@@ -56,8 +56,8 @@ html, body {
     background-size: cover;
     top: 0; 
     mix-blend-mode: overlay;
-    pointer-events: none;
-    animation: fly-ball 90s   
+    pointer-events: none;/* 
+    animation: fly-ball 90s */   
 }
 
 .foremounts {
@@ -261,7 +261,7 @@ p {
         background: url("img/arrw-01.png") no-repeat 50% 50%;
         background-size: cover;
         top: -30px;  
-        animation: borderers 2.5s infinite; 
+/*         animation: borderers 2.5s infinite;  */
     }
 
 
@@ -374,4 +374,137 @@ p {
       
           z-index: 1000;
           top: 0;  
+      }
+
+
+
+      @media (max-width: 376px) {
+        .clouds {
+            position: absolute;
+            width: 100%;
+            height: 100svh;
+            z-index: -5;
+            opacity: 1;
+            background: url("img/img/clouds.png") no-repeat 50% 50%;
+            background-size: cover;
+            top: 0; 
+            mix-blend-mode: overlay;
+            pointer-events: none;
+            animation: none;   
+        }
+        .ferns1 {
+          position: absolute;
+          width: 30svw;
+          height: 100svh;
+          z-index: -2;
+          background: url("img/img/im-\ \(1\).png") no-repeat 50% 50%;
+          background-size: cover;
+          top: 0;  
+          left: -12em;
+      }
+      .ferns2 {
+          position: absolute;
+          width: 30svw;
+          height: 100svh;
+          z-index: -2;
+          background: url("img/img/im-\ \(2\).png") no-repeat 50% 50%;
+          background-size: cover;
+          top: 0;  
+          left: 70em;
+          scroll-snap-align: center;
+      }
+      .text {
+        position: absolute;
+        width: 100%;
+        height: 100svh;
+        z-index: -2;
+        background: url("img/img/im-\ \(5\).png") no-repeat 50% 50%;
+        background-size: cover;
+        top: 50em;
+        left: 15em;
+        mix-blend-mode: overlay;/* 
+        animation: fly-ball2 120s  */
+    }
+      }
+
+      @media (min-width: 383px) and (max-width: 480px) {
+        .clouds {
+            position: absolute;
+            width: 100%;
+            height: 100svh;
+            z-index: -5;
+            opacity: 0.4;
+            background: url("img/img/clouds.png") no-repeat 50% 50%;
+            background-size: cover;
+            top: 0; 
+            mix-blend-mode: overlay;
+            pointer-events: none;
+            animation: none;  
+        }
+        .text {
+          position: absolute;
+          width: 100svw;
+          height: 85svh;
+          z-index: -2;
+          background: url("img/img/im-\ \(5\)b.png") no-repeat 21% 0%;
+          background-size: cover;
+          top: 6em;
+          left: 0em;/* 
+          transform: scale(0.1); */
+          mix-blend-mode: overlay;/* 
+          animation: fly-ball2 120s  */
+      }
+      }
+
+      @media (min-width: 481px) and (max-width: 1022px) {
+        .clouds {
+            position: absolute;
+            width: 100%;
+            height: 100svh;
+            z-index: -5;
+            opacity: 1;
+            background: url("img/img/clouds.png") no-repeat 50% 50%;
+            background-size: cover;
+            top: 0; 
+            mix-blend-mode: overlay;
+            pointer-events: none;
+            animation: none;   
+        }
+        .ferns1 {
+          position: absolute;
+          width: 100%;
+          height: 100svh;
+          z-index: -2;
+          background: url("img/img/im-\ \(1\).png") no-repeat 50% 50%;
+          background-size: cover;
+          top: 0;  
+          left: 20em;
+      }
+      .ferns2 {
+          position: absolute;
+          width: 100%;
+          height: 100svh;
+          z-index: -2;
+          background: url("img/img/im-\ \(2\).png") no-repeat 50% 50%;
+          background-size: cover;
+          top: 0;  
+          left: 0em;
+          scroll-snap-align: center;
+      }
+      }
+
+      @media (min-width: 1023px) and (max-width: 1199px) {
+        .clouds {
+            position: absolute;
+            width: 100%;
+            height: 100svh;
+            z-index: -5;
+            opacity: 1;
+            background: url("img/img/clouds.png") no-repeat 50% 50%;
+            background-size: cover;
+            top: 0; 
+            mix-blend-mode: overlay;
+            pointer-events: none;
+            animation: none;  
+        }
       }
