@@ -482,6 +482,42 @@ p {
         transform: scale(0.1);/* 
         animation: fly-ball2 120s  */
     }
+    .ferns1 {
+      position: absolute;
+      width: 100svw;
+      height: 100svh;
+      z-index: -2;
+      background: url("img/img/im-\ \(1\).png") no-repeat 100% 50%;
+      background-size: cover;
+      top: 0;  
+      left: 10em;
+      opacity: 1; /* VERAS CONCHETUMADRE */
+  }
+  .ferns2 {
+      position: absolute;
+      width: 100svw;
+      height: 100svh;
+      z-index: -2;
+      background: url("img/img/im-\ \(2\).png") no-repeat 10% 50%;
+      background-size: cover;
+      top: 0;  
+      left: -2em;
+      opacity: 1;
+      scroll-snap-align: center;
+  }
+  .text {
+    position: absolute;
+    width: 150svw;
+    height: 100svh;
+    z-index: -2;
+    background: url("img/img/im-\ \(5\)c.png") no-repeat 25% 50%;
+    background-size: cover;
+    left: -80px; 
+    top: 35px;
+    mix-blend-mode: overlay;
+    transform: scale(0.1);/* 
+    animation: fly-ball2 120s  */
+}
     .intruder {
       height: 70svh;
       width: 80svw;
@@ -505,53 +541,174 @@ p {
 
       @media (min-width: 481px) and (max-width: 1022px) {
         .clouds {
-            position: absolute;
-            width: 100%;
-            height: 100svh;
-            z-index: -5;
-            opacity: 1;
-            background: url("img/img/clouds.png") no-repeat 50% 50%;
-            background-size: cover;
-            top: 0; 
-            mix-blend-mode: overlay;
-            pointer-events: none;
-            animation: none;   
-        }
-        .ferns1 {
           position: absolute;
-          width: 100%;
+          width: 250svw;
           height: 100svh;
-          z-index: -2;
-          background: url("img/img/im-\ \(1\).png") no-repeat 50% 50%;
+          z-index: -3;
+          opacity: 1;
+          background: url("img/img/clouds.png") no-repeat 50% 50%;
           background-size: cover;
-          top: 0;  
-          left: 20em;
+          left: -500px; 
+/*           right: 0; 
+          margin-left: auto; 
+          margin-right: auto;  */
+          mix-blend-mode:multiply;
+          pointer-events: none;
+          animation: none;  
       }
-      .ferns2 {
-          position: absolute;
-          width: 100%;
-          height: 100svh;
-          z-index: -2;
-          background: url("img/img/im-\ \(2\).png") no-repeat 50% 50%;
-          background-size: cover;
-          top: 0;  
-          left: 0em;
-          scroll-snap-align: center;
-      }
+      .text {
+        position: absolute;
+        width: 150svw;
+        height: 100svh;
+        z-index: -2;
+        background: url("img/img/im-\ \(5\)b.png") no-repeat 25% 50%;
+        background-size: cover;
+        left: -40px; 
+        top: 35px;
+        mix-blend-mode: overlay;
+        transform: scale(0.1);/* 
+        animation: fly-ball2 120s  */
+    }
+    .ferns1 {
+      position: absolute;
+      width: 100svw;
+      height: 100svh;
+      z-index: -2;
+      background: url("img/img/im-\ \(1\).png") no-repeat 100% 50%;
+      background-size: cover;
+      top: 0;  
+      left: 10em;
+      opacity: 1; /* VERAS CONCHETUMADRE */
+  }
+  .ferns2 {
+      position: absolute;
+      width: 100svw;
+      height: 100svh;
+      z-index: -2;
+      background: url("img/img/im-\ \(2\).png") no-repeat 10% 50%;
+      background-size: cover;
+      top: 0;  
+      left: -2em;
+      opacity: 1;
+      scroll-snap-align: center;
+  }
+  .text {
+    position: absolute;
+    width: 150svw;
+    height: 100svh;
+    z-index: -2;
+    background: url("img/img/im-\ \(5\)c.png") no-repeat 25% 50%;
+    background-size: cover;
+    left: -80px; 
+    top: 35px;
+    mix-blend-mode: overlay;
+    transform: scale(0.1);/* 
+    animation: fly-ball2 120s  */
+}
+    .intruder {
+      height: 70svh;
+      width: 80svw;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+      top: 2em;
+      background-image: url("img/HIGHLANDS_-02.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top center;
+      z-index: 1500;
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+     }
       }
 
       @media (min-width: 1023px) and (max-width: 1199px) {
         .clouds {
-            position: absolute;
-            width: 100%;
-            height: 100svh;
-            z-index: -5;
-            opacity: 1;
-            background: url("img/img/clouds.png") no-repeat 50% 50%;
-            background-size: cover;
-            top: 0; 
-            mix-blend-mode: overlay;
-            pointer-events: none;
-            animation: none;  
-        }
+          position: absolute;
+          width: 250svw;
+          height: 100svh;
+          z-index: -3;
+          opacity: 1;
+          background: url("img/img/clouds.png") no-repeat 50% 50%;
+          background-size: cover;
+          left: -500px; 
+/*           right: 0; 
+          margin-left: auto; 
+          margin-right: auto;  */
+          mix-blend-mode:multiply;
+          pointer-events: none;
+          animation: none;  
+      }
+      .text {
+        position: absolute;
+        width: 150svw;
+        height: 100svh;
+        z-index: -2;
+        background: url("img/img/im-\ \(5\)b.png") no-repeat 25% 50%;
+        background-size: cover;
+        left: -40px; 
+        top: 35px;
+        mix-blend-mode: overlay;
+        transform: scale(0.1);/* 
+        animation: fly-ball2 120s  */
+    }
+    .ferns1 {
+      position: absolute;
+      width: 100svw;
+      height: 100svh;
+      z-index: -2;
+      background: url("img/img/im-\ \(1\).png") no-repeat 100% 50%;
+      background-size: cover;
+      top: 0;  
+      left: 10em;
+      opacity: 1; /* VERAS CONCHETUMADRE */
+  }
+  .ferns2 {
+      position: absolute;
+      width: 100svw;
+      height: 100svh;
+      z-index: -2;
+      background: url("img/img/im-\ \(2\).png") no-repeat 10% 50%;
+      background-size: cover;
+      top: 0;  
+      left: -2em;
+      opacity: 1;
+      scroll-snap-align: center;
+  }
+  .text {
+    position: absolute;
+    width: 150svw;
+    height: 100svh;
+    z-index: -2;
+    background: url("img/img/im-\ \(5\)c.png") no-repeat 25% 50%;
+    background-size: cover;
+    left: -80px; 
+    top: 35px;
+    mix-blend-mode: overlay;
+    transform: scale(0.1);/* 
+    animation: fly-ball2 120s  */
+}
+    .intruder {
+      height: 70svh;
+      width: 80svw;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+      top: 2em;
+      background-image: url("img/HIGHLANDS_-02.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top center;
+      z-index: 1500;
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+     }
       }
