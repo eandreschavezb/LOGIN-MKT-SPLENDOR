@@ -400,10 +400,10 @@ p {
           width: 100svw;
           height: 100svh;
           z-index: -2;
-          background: url("img/img/im-\ \(1\).png") no-repeat 25% 50%;
+          background: url("img/img/im-\ \(1\).png") no-repeat 100% 50%;
           background-size: cover;
           top: 0;  
-          left: 0em;
+          left: 5em;
           opacity: 1; /* VERAS CONCHETUMADRE */
       }
       .ferns2 {
@@ -411,11 +411,11 @@ p {
           width: 100svw;
           height: 100svh;
           z-index: -2;
-          background: url("img/img/im-\ \(2\).png") no-repeat -50% 50%;
+          background: url("img/img/im-\ \(2\).png") no-repeat 10% 50%;
           background-size: cover;
           top: 0;  
-          left: -15em;
-          opacity: 0;
+          left: -2em;
+          opacity: 1;
           scroll-snap-align: center;
       }
       .text {
