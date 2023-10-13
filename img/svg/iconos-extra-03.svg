@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 300">
+  <defs>
+    <linearGradient id="linear-gradient" x1="235.36" y1="123.27" x2="207.74" y2="272.93" gradientUnits="userSpaceOnUse">
+      <stop offset="0.16" stop-color="#d9b850"/>
+      <stop offset="1" stop-color="#a38a3d"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_3" data-name="Layer 3">
+    <circle cx="150" cy="150" r="124.79" style="fill: #fafafa"/>
+  </g>
+  <g id="Layer_1_copy" data-name="Layer 1 copy">
+    <path d="M209,214.48l-.18-1.58a58.56,58.56,0,0,0-1-6.72c-4.49-19.42-15.95-33.52-34.06-41.89-1.34-.62-2.7-1.14-4.14-1.69l-2-.79-1.72-.68,1.66-.82a41.11,41.11,0,0,0,21.28-49.54C183.16,94,167.54,82.48,150.58,82.48l-1.1,0c-18.25.54-34.21,12.75-38.82,29.71-5.26,19.35,3.75,39.13,21.91,48.1l1.69.84-2.42.92-1.08.4a59.19,59.19,0,0,0-39.77,52,2.7,2.7,0,0,0,2.08,3,2.57,2.57,0,0,0,3-2.24,11.45,11.45,0,0,0,.24-1.49,53.87,53.87,0,0,1,48.38-49,51.89,51.89,0,0,1,29.51,5.5c13.26,6.84,22.26,17.24,26.74,30.91a66.08,66.08,0,0,1,2.13,9.63c.24,1.46.49,2.93.78,4.37a2.57,2.57,0,0,0,2.95,2.33,2.5,2.5,0,0,0,1.66-1A2.83,2.83,0,0,0,209,214.48Zm-59.09-55.59a35.64,35.64,0,0,1-35.52-35.64,35.66,35.66,0,0,1,35.48-35.53H150a35.59,35.59,0,0,1,0,71.17Z" style="fill: #d9b850"/>
+  </g>
+  <g id="Layer_4" data-name="Layer 4">
+    <circle cx="217.9" cy="217.9" r="62.1" style="fill: #fff"/>
+  </g>
+  <g id="Layer_2" data-name="Layer 2">
+    <circle cx="217.9" cy="217.9" r="51.1" style="fill: url(#linear-gradient)"/>
+  </g>
+  <g id="Layer_5" data-name="Layer 5">
+    <text transform="translate(190.27 250.75)" style="font-size: 97.89593505859375px;fill: #fff;font-family: Roboto-Regular, Roboto">+</text>
+  </g>
+</svg>

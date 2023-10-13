@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 300">
+  <defs>
+    <linearGradient id="linear-gradient" x1="235.36" y1="123.27" x2="207.74" y2="272.93" gradientUnits="userSpaceOnUse">
+      <stop offset="0.16" stop-color="#d9b850"/>
+      <stop offset="1" stop-color="#a38a3d"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_3" data-name="Layer 3">
+    <circle cx="162" cy="150" r="124.79" style="fill: #fafafa"/>
+  </g>
+  <g id="Layer_1_copy" data-name="Layer 1 copy">
+    <g>
+      <path d="M153.65,169.18H138.37a2,2,0,0,0-1.83,1.82v15.1a2,2,0,0,0,1.83,1.81h15.28a2,2,0,0,0,1.83-1.81V171C155.78,170.09,154.87,169.18,153.65,169.18Zm0,16.88h-15.2V171h15.2Z" style="fill: #d9b850"/>
+      <path d="M143.29,183.45a1.65,1.65,0,0,0,.86.42,1.13,1.13,0,0,0,.85-.42l6.6-6.52a1.57,1.57,0,0,0,0-1.89c-.22-.42-1.07-.42-1.71,0l-5.53,5.68-1.92-1.9a1.6,1.6,0,0,0-1.91,0,1.55,1.55,0,0,0,0,1.9Z" style="fill: #d9b850"/>
+      <path d="M203.64,90H124.36a3.17,3.17,0,0,0-3.17,3.17V206.82a3.17,3.17,0,0,0,3.17,3.17h79.28a3.17,3.17,0,0,0,3.17-3.17V93.18A3.17,3.17,0,0,0,203.64,90Zm-1.55,115.27H125.91V94.72h76.18v5.44h0v61.17h0Z" style="fill: #d9b850"/>
+      <rect x="159.15" y="173.56" width="30.62" height="2.86" style="fill: #d9b850"/>
+      <rect x="159.15" y="178.1" width="22.21" height="1.85" style="fill: #d9b850"/>
+      <rect x="159.15" y="181.64" width="22.21" height="1.85" style="fill: #d9b850"/>
+      <path d="M153.65,140.39H138.37a2,2,0,0,0-1.83,1.82v15.1a2,2,0,0,0,1.83,1.81h15.28a2,2,0,0,0,1.83-1.81v-15.1C155.78,141.3,154.87,140.39,153.65,140.39Zm0,16.88h-15.2v-15h15.2Z" style="fill: #d9b850"/>
+      <path d="M143.29,154.66a1.65,1.65,0,0,0,.86.42,1.13,1.13,0,0,0,.85-.42l6.6-6.52a1.57,1.57,0,0,0,0-1.89c-.22-.42-1.07-.42-1.71,0l-5.53,5.68-1.92-1.9a1.6,1.6,0,0,0-1.91,0,1.55,1.55,0,0,0,0,1.9Z" style="fill: #d9b850"/>
+      <rect x="159.15" y="144.77" width="30.62" height="2.86" style="fill: #d9b850"/>
+      <rect x="159.15" y="149.31" width="22.21" height="1.85" style="fill: #d9b850"/>
+      <rect x="159.15" y="152.85" width="22.21" height="1.85" style="fill: #d9b850"/>
+      <path d="M153.65,111.6H138.37a2,2,0,0,0-1.83,1.82v15.1a2,2,0,0,0,1.83,1.81h15.28a2,2,0,0,0,1.83-1.81v-15.1C155.78,112.51,154.87,111.6,153.65,111.6Zm0,16.88h-15.2v-15h15.2Z" style="fill: #d9b850"/>
+      <path d="M143.29,125.87a1.65,1.65,0,0,0,.86.42,1.13,1.13,0,0,0,.85-.42l6.6-6.52a1.57,1.57,0,0,0,0-1.89c-.22-.42-1.07-.42-1.71,0l-5.53,5.68-1.92-1.9a1.6,1.6,0,0,0-1.91,0,1.55,1.55,0,0,0,0,1.9Z" style="fill: #d9b850"/>
+      <rect x="159.15" y="115.98" width="30.62" height="2.86" style="fill: #d9b850"/>
+      <rect x="159.15" y="120.52" width="22.21" height="1.85" style="fill: #d9b850"/>
+      <rect x="159.15" y="124.06" width="22.21" height="1.85" style="fill: #d9b850"/>
+    </g>
+  </g>
+  <g id="Layer_4" data-name="Layer 4">
+    <circle cx="217.9" cy="217.9" r="62.1" style="fill: #fff"/>
+  </g>
+  <g id="Layer_2" data-name="Layer 2">
+    <circle cx="217.9" cy="217.9" r="51.1" style="fill: url(#linear-gradient)"/>
+  </g>
+  <g id="Layer_5" data-name="Layer 5">
+    <text transform="translate(190.27 250.75)" style="font-size: 97.89593505859375px;fill: #fff;font-family: Roboto-Regular, Roboto">+</text>
+  </g>
+</svg>
